@@ -7,7 +7,7 @@ SETUP:
 
 - composer update/install
 - setup env 
-- install package: composer require composer require fahad/email-campaign:@dev
+- install package:composer require fahad/email-campaign:@dev
 - run following commands: 
   - php artisan migrate:refresh,php artisan serve,  php artisan queue:work
 - import api collection to test apis: I'm sharing postman collection in project root and customer table.
