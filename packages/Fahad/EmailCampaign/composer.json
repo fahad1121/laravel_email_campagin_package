@@ -1,0 +1,16 @@
+{
+    "name": "fahad/email-campaign",
+    "description": "Email campaign package",
+    "autoload": {
+        "psr-4": {
+            "Fahad\\EmailCampaign\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fahad\\EmailCampaign\\EmailCampaignServiceProvider"
+            ]
+        }
+    }
+}
